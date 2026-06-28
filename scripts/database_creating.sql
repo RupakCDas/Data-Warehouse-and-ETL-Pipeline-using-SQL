@@ -6,18 +6,26 @@ Script Purpose:
     This script sets up the data warehouse environment by creating 
     three distinct databases representing the Medallion layers:
     'datawarehouse_bronze', 'datawarehouse_silver', and 'datawarehouse_gold'.
-    
-WARNING:
-    Running this script will drop these databases if they exist. 
-    All data in them will be permanently deleted. Proceed with caution.
 */
 
--- Drop existing databases if they exist
-DROP DATABASE IF EXISTS bronze;
-DROP DATABASE IF EXISTS silver;
-DROP DATABASE IF EXISTS gold;
+USE master;
+GO
 
--- Create the individual layer databases
-CREATE DATABASE bronze;
-CREATE DATABASE silver;
-CREATE DATABASE gold;
+-- Drop and recreate the 'data_warehouse' database
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'data_warehouse')
+DROP DATABASE data_warehouse;
+
+-- Create the 'data_warehouse' database
+CREATE DATABASE data_warehouse;
+USE data_warehouse;
+GO
+
+-- Create Schemas
+CREATE SCHEMA bronze;
+GO
+
+CREATE SCHEMA silver;
+GO
+
+CREATE SCHEMA gold;
+GO
