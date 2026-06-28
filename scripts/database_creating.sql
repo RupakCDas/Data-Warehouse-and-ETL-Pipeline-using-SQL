@@ -1,11 +1,10 @@
 /*
-=============================================================
-Create Databases (Medallion Architecture Layers)
-=============================================================
+Create Database and Schemas
+========================================
 Script Purpose:
-    This script sets up the data warehouse environment by creating 
-    three distinct databases representing the Medallion layers:
-    'datawarehouse_bronze', 'datawarehouse_silver', and 'datawarehouse_gold'.
+    This script creates a new database named 'DataWarehouse' after checking if it already exists. 
+    If the database exists, it is dropped and recreated. Additionally, the script sets up three schemas 
+    within the database: 'bronze', 'silver', and 'gold'.
 */
 
 USE master;
