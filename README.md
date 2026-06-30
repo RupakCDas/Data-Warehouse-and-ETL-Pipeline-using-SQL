@@ -22,6 +22,9 @@ Purpose: Cleans, standardizes, and enriches the raw data to ensure quality and c
 
 Implementation: Stored procedures perform data deduplication, handle null values, trim trailing whitespaces, fix date formats, and standardize fields (such as mapping conflicting gender or marital status codes across different systems into a unified format).
 
+<img width="429" height="585" alt="silver" src="https://github.com/user-attachments/assets/a41c7f03-989f-45d1-b36e-429eeb80fdfb" />
+
+
 ### Gold Layer (Analytical Modeling):
 
 Purpose: Organizes the clean data into optimized structures tailored for high-performance reporting and business intelligence (BI) tools.
