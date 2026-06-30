@@ -45,7 +45,4 @@ Implementation: Creates dimensional views and fact tables (dim_customers, fact_s
 <img width="1171" height="193" alt="gold" src="https://github.com/user-attachments/assets/51cc24e3-546e-449e-b9c0-061e52e6eba2" />
 
 
-### Data Governance & Quality Assurance:
-
-Includes built-in data quality checks and validation scripts to identify integrity anomalies (e.g., duplicate primary keys, broken relationships, invalid date ranges) before data hits production views.
 
