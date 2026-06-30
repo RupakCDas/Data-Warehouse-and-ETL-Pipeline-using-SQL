@@ -12,7 +12,7 @@ Acts as the landing zone where raw data from source systems (like CSV files cont
 
 Implementation: Databases and schemas are set up, and automated stored procedures utilize BULK INSERT to rapidly load data, logging execution details for audit tracking.
 
-<img width="319" height="474" alt="bronge_layer" src="https://github.com/user-attachments/assets/78f5ab3e-26c8-4aab-b0bb-82b79e4e4827" />
+<img width="429" height="561" alt="bronge" src="https://github.com/user-attachments/assets/7c628a9e-52e0-4c31-8c98-b3e857888dc1" />
 
 
 
