@@ -12,7 +12,7 @@ Acts as the landing zone where raw data from source systems (like CSV files cont
 
 Implementation: Databases and schemas are set up, and automated stored procedures utilize BULK INSERT to rapidly load data, logging execution details for audit tracking.
 
-<img width="429" height="561" alt="bronge" src="https://github.com/user-attachments/assets/7c628a9e-52e0-4c31-8c98-b3e857888dc1" />
+<img width="1171" height="193" alt="bronze" src="https://github.com/user-attachments/assets/6e14d7ca-f477-4135-ad91-f7d2a633e4ba" />
 
 
 
@@ -22,7 +22,8 @@ Purpose: Cleans, standardizes, and enriches the raw data to ensure quality and c
 
 Implementation: Stored procedures perform data deduplication, handle null values, trim trailing whitespaces, fix date formats, and standardize fields (such as mapping conflicting gender or marital status codes across different systems into a unified format).
 
-<img width="1171" height="219" alt="silver1" src="https://github.com/user-attachments/assets/6b288cf8-ff9f-46fc-b95d-df9956215308" />
+<img width="1171" height="219" alt="silver" src="https://github.com/user-attachments/assets/00e9caea-6972-455d-ab29-d30d6b0b892f" />
+
 
 
 
@@ -31,6 +32,9 @@ Implementation: Stored procedures perform data deduplication, handle null values
 Purpose: Organizes the clean data into optimized structures tailored for high-performance reporting and business intelligence (BI) tools.
 
 Implementation: Creates dimensional views and fact tables (dim_customers, fact_sales, etc.) using a Star Schema data model, making it perfectly structured for analytical queries and dashboards.
+
+<img width="1171" height="193" alt="gold" src="https://github.com/user-attachments/assets/51cc24e3-546e-449e-b9c0-061e52e6eba2" />
+
 
 ### Data Governance & Quality Assurance:
 
