@@ -2,7 +2,7 @@
 Creating a Data Warehouse model and ETL pipeline using SQL. 
 This project implements a data warehouse designed to unify and transform disparate, raw source data into reliable, business-ready analytical assets. The project automates the entire Extraction, Transformation, and Loading (ETL) pipeline using a structured multi-layered Medallion Architecture.
 
-<img width="1613" height="922" alt="data_architecture (2)" src="https://github.com/user-attachments/assets/9da72c67-460d-478a-8a9f-1deda1b2a34b" />
+<img width="1620" height="922" alt="data_architecture" src="https://github.com/user-attachments/assets/9c282e33-a1c1-4cb2-8686-12c67500d86d" />
 
 
 The pipeline processes data through three distinct architectural stages:
