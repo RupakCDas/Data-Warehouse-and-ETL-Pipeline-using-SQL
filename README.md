@@ -4,6 +4,14 @@ This project implements a data warehouse designed to unify and transform dispara
 
 <img width="1620" height="922" alt="data_architecture" src="https://github.com/user-attachments/assets/9c282e33-a1c1-4cb2-8686-12c67500d86d" />
 
+### Project Overview
+This project involves:
+
+Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
+Data Modeling: Developing fact and dimension tables optimized for analytical queries.
+Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+
 
 The pipeline processes data through three distinct architectural stages:
 
