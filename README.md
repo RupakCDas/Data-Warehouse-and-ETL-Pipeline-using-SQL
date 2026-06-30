@@ -22,7 +22,7 @@ Purpose: Cleans, standardizes, and enriches the raw data to ensure quality and c
 
 Implementation: Stored procedures perform data deduplication, handle null values, trim trailing whitespaces, fix date formats, and standardize fields (such as mapping conflicting gender or marital status codes across different systems into a unified format).
 
-<img width="1171" height="218" alt="silver2" src="https://github.com/user-attachments/assets/639fac30-d1fa-4dd3-a3b5-e480d49dc8a7" />
+<img width="1171" height="219" alt="silver1" src="https://github.com/user-attachments/assets/6b288cf8-ff9f-46fc-b95d-df9956215308" />
 
 
 
