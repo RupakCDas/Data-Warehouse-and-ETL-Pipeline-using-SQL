@@ -7,10 +7,11 @@ This project implements a data warehouse designed to unify and transform dispara
 
 The pipeline processes data through three distinct architectural stages:
 
-### Bronze Layer (Raw Ingestion): * Purpose: 
+### Bronze Layer (Raw Ingestion):
+Purpose: 
 Acts as the landing zone where raw data from source systems (like CSV files containing customer, product, and sales records) is ingested exactly as-is.
 
-Implementation: Databases and schemas are set up, and automated stored procedures utilize BULK INSERT to rapidly load data, logging execution details for audit tracking.
+Implementation: Databases and schemas are set up, and automated stored procedures utilize BULK INSERT to rapidly load data, logging execution details for audit tracking. Checking data quality to avoid irrevelent data before ingest to silver layer.
 
 <img width="1171" height="193" alt="bronze" src="https://github.com/user-attachments/assets/6e14d7ca-f477-4135-ad91-f7d2a633e4ba" />
 
